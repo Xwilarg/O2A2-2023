@@ -24,9 +24,12 @@ label start:
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
+    e "There he is - wow, he looks dapper! Why on earth is he in a suit and tie? I didn’t think they were going to break ground at the construction site this early.
+"
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    e "Where is he going? Is he meeting someone?"
+
+    e "Another... woman?"
 
     # This ends the game.
 
