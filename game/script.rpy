@@ -24,8 +24,7 @@ label start:
 
     # These display lines of dialogue.
 
-    e "There he is - wow, he looks dapper! Why on earth is he in a suit and tie? I didn’t think they were going to break ground at the construction site this early.
-"
+    e "There he is - wow, he looks dapper! Why on earth is he in a suit and tie? I didn’t think they were going to break ground at the construction site this early."
 
     e "Where is he going? Is he meeting someone?"
 
