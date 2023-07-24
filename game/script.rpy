@@ -23,11 +23,13 @@ label start:
     show eileen happy
 
     # These display lines of dialogue.
-
+    voice "voice/part1/1.wav"
     e "There he is - wow, he looks dapper! Why on earth is he in a suit and tie? I didn’t think they were going to break ground at the construction site this early."
-
+    
+    voice "voice/part1/2.wav"
     e "Where is he going? Is he meeting someone?"
-
+    
+    voice "voice/part1/3.wav"
     e "Another... woman?"
 
     # This ends the game.
