@@ -23,13 +23,13 @@ label start:
     show eileen happy
 
     # These display lines of dialogue.
-    voice "voice/part1/1.wav"
+    voice "voice/part1/1.mp3"
     e "There he is - wow, he looks dapper! Why on earth is he in a suit and tie? I didn’t think they were going to break ground at the construction site this early."
     
-    voice "voice/part1/2.wav"
+    voice "voice/part1/2.mp3"
     e "Where is he going? Is he meeting someone?"
     
-    voice "voice/part1/3.wav"
+    voice "voice/part1/3.mp3"
     e "Another... woman?"
 
     e "I’m rooted to the ground, frozen on the street across from his workplace. I watch as he strides purposefully away from me."
