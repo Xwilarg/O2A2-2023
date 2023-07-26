@@ -23,13 +23,13 @@ label start:
     show eileen happy
 
     # These display lines of dialogue.
-    voice "voice/part1/1.mp3"
+    # voice "voice/part1/1.mp3"
     e "There he is - wow, he looks dapper! Why on earth is he in a suit and tie? I didn’t think they were going to break ground at the construction site this early."
     
-    voice "voice/part1/2.mp3"
+    # voice "voice/part1/2.mp3"
     e "Where is he going? Is he meeting someone?"
     
-    voice "voice/part1/3.mp3"
+    # voice "voice/part1/3.mp3"
     e "Another... woman?"
 
     e "I’m rooted to the ground, frozen on the street across from his workplace. I watch as he strides purposefully away from me."
@@ -52,7 +52,9 @@ label start:
 
     e "Feel the heat rising from another warm body."
 
-    e "I decided to surprise him at work with lunch. I was in a hurry when I left the apartment. I almost forgot my backpack - I never go anywhere without it."
+    e "I decided to surprise him at work with lunch." 
+    
+    e "I was in a hurry when I left the apartment. I almost forgot my backpack - I never go anywhere without it."
 
     e "Now I see that surprising him was a terrible idea. He has gone so far down the street that I almost lose sight of him."
 
@@ -94,7 +96,9 @@ label choice_a:
 
     e "A robed man rushes at me, shouting."
 
-    e "You’ve taken this woman’s life, spirit! What more do you want? Leave now, leave this family alone, he warns."
+    e "You’ve taken this woman’s life, spirit! What more do you want? "
+    
+    e "Leave now, leave this family alone, he warns."
 
     e "He waves a book at me menacingly. Pain splits my head. I fish my wallet out of my backpack and hurl it at them."
 
