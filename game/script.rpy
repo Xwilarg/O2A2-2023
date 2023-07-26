@@ -59,8 +59,18 @@ label start:
 
     e "Now I see that surprising him was a terrible idea. He has gone so far down the street that I almost lose sight of him."
 
-label choice_a:
+menu: 
+    "Follow him discreetly.":
+        jump choice_a
+    
+    "Call out to him.":
+        jump choice_b
 
+label after_menu:
+    "Thank you for a few minutes of your life."
+    return
+
+label choice_a:
     e "I sprint across to keep him in view, then slow and follow him from a distance."
 
     e "The city is unfamiliar to me. He picks up his pace, as if in a hurry. I start jogging to keep up."
@@ -110,6 +120,8 @@ label choice_a:
     e "No, no! It’s my life! Mine!"
 
     e "This life is mine!"
+    
+    jump after_menu
 
 label choice_b:
 
@@ -171,7 +183,7 @@ label choice_b:
 
     e "I will be right here with you."
 
-
+    jump after_menu
     # This ends the game.
 
     return
