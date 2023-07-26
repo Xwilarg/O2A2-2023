@@ -1,5 +1,6 @@
 ﻿# The script of the game goes in this file.
 
+define config.auto_voice = "voice/{id}.mp3"
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
