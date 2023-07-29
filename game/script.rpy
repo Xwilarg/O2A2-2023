@@ -4,8 +4,7 @@ define config.auto_voice = "voice/{id}.mp3"
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
-
+define e = Character("Irin")
 
 # The game starts here.
 
@@ -21,19 +20,18 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show sprite
+    show sprite at right
 
     # These display lines of dialogue.
-    # voice "voice/part1/1.mp3"
     e "There he is - wow, he looks dapper! Why on earth is he in a suit and tie? I didn't think they were going to break ground at the construction site this early."
     
-    # voice "voice/part1/2.mp3"
     e "Where is he going? Is he meeting someone?"
     
-    # voice "voice/part1/3.mp3"
     e "Another... woman?"
 
     e "I'm rooted to the ground, frozen on the street across from his workplace. I watch as he strides purposefully away from me."
+
+    show sprite at left
 
     e "I woke up this morning and reached across the bed, hopeful. I am quickly disappointed, like I have been every morning for the past year."
 
@@ -56,6 +54,8 @@ label start:
     e "I decided to surprise him at work with lunch." 
     
     e "I was in a hurry when I left the apartment. I almost forgot my backpack - I never go anywhere without it."
+
+    show sprite at right
 
     e "Now I see that surprising him was a terrible idea. He has gone so far down the street that I almost lose sight of him."
 
