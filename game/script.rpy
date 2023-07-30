@@ -14,6 +14,10 @@ layeredimage irin:
             "backpack"
 
 image irin flip = im.Flip("sprite.png", horizontal=True)
+image irin ghost = im.Blur("sprite.png", 0.5)
+image irin ghost2 = im.Blur("sprite.png", 1.0)
+image irin ghost3 = im.Blur("sprite.png", 2.0)
+image irin ghost4 = im.Blur("sprite.png", 4.0)
 
 # The game starts here.
 
@@ -105,6 +109,8 @@ label choice_a:
 
     e "What cruel joke are you playing on me? I'm your wife!"
 
+    show irin ghost at right
+
     e "He jerks backwards from me, brows furrowing in anger. \"Get away from me,\" he screams."
 
     e "The fear in his voice is palpable. I am frantic."
@@ -112,6 +118,8 @@ label choice_a:
     e "\"It's her,\" he yells at the others."
 
     e "Yes, it's me! Your wife!"
+
+    show irin ghost2 at right
 
     e "He ignores me. \"It's her, the evil parasite,\" he continues yelling."
 
@@ -123,11 +131,15 @@ label choice_a:
 
     e "He waves a book at me menacingly. Pain splits my head. I fish my wallet out of my backpack and hurl it at them."
 
+    show irin ghost3 at right
+
     e "Look! It's me! I'm your wife!"
 
     e "All I hear is more shouting at me. \"Leave, parasite, leave,\" the voices scream."
 
     e "No, no! It’s my life! Mine!"
+
+    show irin ghost4 at right
 
     e "This life is mine!"
     
@@ -153,6 +165,8 @@ label choice_b:
 
     e "I've been calling you! Where are you going?"
 
+    show irin ghost at right
+
     e "His hand falls from mine. He doesn't respond. In fact, he starts walking again, completely ignoring me."
 
     e "Babe!"
@@ -165,15 +179,21 @@ label choice_b:
 
     e "Confused, I walk around to face him."
 
+    show irin ghost2 at right
+
     e "He is beaming, but he isn't looking at me. He's looking right through me."
 
     e "I hear a feminine voice call, \"Sweetheart.\""
+
+    show irin ghost3 at right
 
     e "Before I can turn around, a buzz goes through my body. I'm suddenly wracked by visions of twisted sheets and lusty moans in my brain."
 
     e "I step back away from him, shocked, and watch a pair of arms that aren't mine circle his neck."
 
     e "She asks, \"Is it done?\" and he nods."
+
+    show irin ghost4 at right
 
     e "They cannot see me! What the hell is going on?"
 
@@ -183,13 +203,19 @@ label choice_b:
 
     e "I can't let him get away with whatever the hell is happening."
 
+    show irin ghost3 at right
+
     e "I chase after them. I call him again. This time I'm no longer surprised he doesn't hear me."
 
     e "When I catch up to them, I snake both my arms around his neck from behind and pull myself up."
 
+    show irin ghost2 at right
+
     e "I wrap my legs around his waist. His gait slows a little and his shoulders hunch but he keeps on walking."
 
     e "I grip him tightly, pulling my face to the back of his neck. I sniff his scent and lick the fuzz just above his collar."
+
+    show irin ghost at right
 
     e "I will be right here with you."
 
