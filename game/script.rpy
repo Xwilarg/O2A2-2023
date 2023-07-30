@@ -13,6 +13,8 @@ layeredimage irin:
         attribute backpack:
             "backpack"
 
+image irin flip = im.Flip("sprite.png", horizontal=True)
+
 # The game starts here.
 
 label start:
@@ -27,7 +29,7 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show irin at right
+    show irin backpack at right
 
     # These display lines of dialogue.
     e "There he is - wow, he looks dapper! Why on earth is he in a suit and tie? I didn't think they were going to break ground at the construction site this early."
@@ -38,7 +40,7 @@ label start:
 
     e "I'm rooted to the ground, frozen on the street across from his workplace. I watch as he strides purposefully away from me."
 
-    show irin backpack at left
+    show irin flip at left
 
     e "I woke up this morning and reached across the bed, hopeful. I am quickly disappointed, like I have been every morning for the past year."
 
@@ -62,7 +64,7 @@ label start:
     
     e "I was in a hurry when I left the apartment. I almost forgot my backpack - I never go anywhere without it."
 
-    show irin at right
+    show irin backpack at right
 
     e "Now I see that surprising him was a terrible idea. He has gone so far down the street that I almost lose sight of him."
 
