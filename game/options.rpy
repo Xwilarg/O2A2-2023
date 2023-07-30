@@ -47,7 +47,7 @@ define build.name = "ALifeApart"
 ## to the player by default. Setting one of these to False will hide the
 ## appropriate mixer.
 
-define config.has_sound = True
+define config.has_sound = False
 define config.has_music = True
 define config.has_voice = True
 
@@ -144,7 +144,7 @@ default preferences.afm_time = 15
 ## This generally should not be changed, and if it is, should always be a
 ## literal string, not an expression.
 
-define config.save_directory = "O2A2-1689957113"
+define config.save_directory = "ALifeApart-1689957113"
 
 
 ## Icon ########################################################################
