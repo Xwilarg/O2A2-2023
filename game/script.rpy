@@ -18,6 +18,7 @@ image irin flip = im.Flip("sprite.png", horizontal=True)
 # The game starts here.
 
 label start:
+    play music bgm volume 0.1
 
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
